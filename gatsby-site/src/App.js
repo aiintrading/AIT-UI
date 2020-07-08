@@ -2,7 +2,7 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import { BottomNavigation, BottomNavigationAction } from '@material-ui/core';
+import { BottomNavigation, BottomNavigationAction, Button } from '@material-ui/core';
 
 
 export default function App() {
@@ -23,6 +23,10 @@ export default function App() {
         <BottomNavigationAction label="Positions"  />
         <BottomNavigationAction label="Analytics"  />
       </BottomNavigation>
+
+      <Button variant="contained" color="primary">
+        Primary
+      </Button>
     </Container>
   );
 }
