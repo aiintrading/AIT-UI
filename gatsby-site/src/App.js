@@ -2,9 +2,12 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
+import { BottomNavigation, BottomNavigationAction } from '@material-ui/core';
 
 
 export default function App() {
+
+  
   return (
     <Container maxWidth="sm">
       <Box my={4}>
@@ -12,6 +15,14 @@ export default function App() {
           AI in Trading
         </Typography>
       </Box>
+      <BottomNavigation
+        
+        showLabels
+      >
+        <BottomNavigationAction label="AI Dashboard"  />
+        <BottomNavigationAction label="Positions"  />
+        <BottomNavigationAction label="Analytics"  />
+      </BottomNavigation>
     </Container>
   );
 }
