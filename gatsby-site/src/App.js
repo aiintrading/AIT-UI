@@ -16,7 +16,6 @@ export default function App() {
         </Typography>
       </Box>
       <BottomNavigation
-        
         showLabels
       >
         <BottomNavigationAction label="AI Dashboard"  />
