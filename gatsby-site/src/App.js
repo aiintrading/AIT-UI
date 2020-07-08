@@ -24,7 +24,10 @@ export default function App() {
       </BottomNavigation>
 
       <Button variant="contained" color="primary">
-        Primary
+        Trigger Signal Generator
+      </Button>
+      <Button variant="contained" color="primary">
+        Generate StopLoss/Target
       </Button>
     </Container>
   );
